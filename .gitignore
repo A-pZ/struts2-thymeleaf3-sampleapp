@@ -61,3 +61,18 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+.classpath
+.settings/.jsdtscope
+.settings/org.eclipse.core.resources.prefs
+*.prefs
+.settings/org.eclipse.wst.common.component
+.settings/org.eclipse.wst.common.project.facet.core.xml
+.settings/org.eclipse.wst.jsdt.ui.superType.container
+.settings/org.eclipse.wst.jsdt.ui.superType.name
+target/classes/log4j2.xml
+target/classes/struts.xml
+target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+target/m2e-wtp/web-resources/META-INF/maven/serendip.sturts.thymeleaf/struts2-thymeleaf-sampleapp/pom.properties
+target/m2e-wtp/web-resources/META-INF/maven/serendip.sturts.thymeleaf/struts2-thymeleaf-sampleapp/pom.xml
+target/m2e-wtp/web-resources/META-INF/maven/serendip.sturts.thymeleaf/struts2-thymeleaf3-sampleapp/pom.properties
+target/m2e-wtp/web-resources/META-INF/maven/serendip.sturts.thymeleaf/struts2-thymeleaf3-sampleapp/pom.xml
