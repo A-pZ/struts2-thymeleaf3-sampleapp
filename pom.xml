@@ -9,7 +9,7 @@
     <name>struts2-thymeleaf-sampleapp</name>
 
     <properties>
-        <struts2.version>2.5</struts2.version>
+        <struts2.version>2.5.1</struts2.version>
         <log4j2.version>2.5</log4j2.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
