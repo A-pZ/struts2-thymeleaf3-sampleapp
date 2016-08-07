@@ -15,13 +15,13 @@ import com.opensymphony.xwork2.ActionSupport;
 @ParentPackage("struts-thymeleaf")
 @Results({@Result(name=ActionSupport.SUCCESS,type="thymeleaf",location="index")})
 public class HelloAction extends ActionSupport {
-	
+
 	@Action("")
     public String execute() throws Exception {
-        name = "This is thymeleaf3!";
+		name = "Wooo! Year!! This is thymeleaf3 with Struts2!!";
         return SUCCESS;
     }
-	
+
 	public String getName() {
 		return name;
 	}
