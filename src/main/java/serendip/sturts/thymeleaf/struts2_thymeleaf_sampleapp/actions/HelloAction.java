@@ -18,17 +18,8 @@ public class HelloAction extends ActionSupport {
 
 	@Action("")
     public String execute() throws Exception {
-		name = "Wooo! Year!! This is thymeleaf3 with Struts2!!";
+		addActionMessage("Wooo! Year!! This is thymeleaf3 with Struts2!!");
         return SUCCESS;
     }
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	private String name;
 }

@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>serendip.sturts.thymeleaf</groupId>
     <artifactId>struts2-thymeleaf3-sampleapp</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>war</packaging>
     <name>struts2-thymeleaf-sampleapp</name>
 
@@ -70,9 +70,9 @@
 
 
         <dependency>
-        	<groupId>serendip.struts.plugins.thymeleaf</groupId>
+        	<groupId>com.github.a-pz</groupId>
         	<artifactId>struts2-thymeleaf3-plugin</artifactId>
-        	<version>1.0.0-RELEASE</version>
+        	<version>1.0.1-RELEASE</version>
         </dependency>
     </dependencies>
 
