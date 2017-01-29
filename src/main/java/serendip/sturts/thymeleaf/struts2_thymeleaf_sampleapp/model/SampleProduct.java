@@ -13,17 +13,22 @@ import lombok.Data;
  */
 @Data
 public class SampleProduct implements Serializable {
-	public SampleProduct(String id, String name, long stock, boolean secret, boolean editable) {
-		super();
+	public SampleProduct() {
+		// NOP
+	};
+
+	public SampleProduct setProduct(String id, String name, long stock, boolean secret, boolean editable) {
 		this.id = id;
 		this.name = name;
 		this.stock = stock;
 		this.secret = secret;
 		this.editable = editable;
+
+		return this;
 	}
 	private String id;
 	private String name;
-	private long stock;
-	private boolean secret;
-	private boolean editable;
+	private Long stock;
+	private Boolean secret;
+	private Boolean editable;
 }
