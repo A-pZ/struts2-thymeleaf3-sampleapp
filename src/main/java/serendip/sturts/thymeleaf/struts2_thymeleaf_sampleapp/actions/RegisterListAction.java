@@ -22,7 +22,10 @@ import serendip.sturts.thymeleaf.struts2_thymeleaf_sampleapp.model.SampleProduct
  */
 @Namespace("/")
 @ParentPackage("struts-thymeleaf")
-@Results({@Result(name=ActionSupport.SUCCESS,type="thymeleaf",location="listInput")})
+@Results(
+		{@Result(name=ActionSupport.SUCCESS,type="thymeleaf",location="listInput"),
+		@Result(name=ActionSupport.INPUT,type="thymeleaf",location="listInput")}
+)
 @Log4j2
 public class RegisterListAction extends ActionSupport {
 

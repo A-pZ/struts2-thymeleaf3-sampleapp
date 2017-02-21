@@ -55,19 +55,19 @@
 		<tbody>
 			<tr th:each="product,status : ${products}">
 				<td>
-					<input type="text" value="X-45" name="id" class="form-control" th:name="'products[' + ${status.getIndex()} + '].id'" th:value="${product.getId()}" />
+					<input type="text" value="X-45" name="id" class="form-control" th:name="'products[' + ${status.getIndex()} + '].id'" sth:value="${product.getId()}" error-css="alert-danger"/>
 				</td>
 				<td>
-					<input type="text" value="X-45" name="name" class="form-control" th:name="'products[' + ${status.getIndex()} + '].name'" th:value="${product.getName()}" />
+					<input type="text" value="X-45" name="name" class="form-control" th:name="'products[' + ${status.getIndex()} + '].name'" sth:value="${product.getName()}" error-css="alert-danger"/>
 				</td>
 				<td>
-					<input type="text" value="X-45" name="stock" class="form-control" th:name="'products[' + ${status.getIndex()} + '].stock'" th:value="${product.getStock()}" />
+					<input type="text" value="X-45" name="stock" class="form-control" th:name="'products[' + ${status.getIndex()} + '].stock'" sth:value="${product.getStock()}" error-css="alert-danger"/>
 				</td>
 				<td>
-					<input type="text" value="X-45" name="secret" class="form-control" th:name="'products[' + ${status.getIndex()} + '].secret'" th:value="${product.getSecret()}" />
+					<input type="text" value="X-45" name="secret" class="form-control" th:name="'products[' + ${status.getIndex()} + '].secret'" sth:value="${product.isSecret()}" error-css="alert-danger"/>
 				</td>
 				<td>
-					<input type="text" value="X-45" name="editable" class="form-control" th:name="'products[' + ${status.getIndex()} + '].editable'" th:value="${product.getEditable()}" />
+					<input type="text" value="X-45" name="editable" class="form-control" th:name="'products[' + ${status.getIndex()} + '].editable'" sth:value="${product.isEditable()}" error-css="alert-danger"/>
 				</td>
 			</tr>
 		</tbody>

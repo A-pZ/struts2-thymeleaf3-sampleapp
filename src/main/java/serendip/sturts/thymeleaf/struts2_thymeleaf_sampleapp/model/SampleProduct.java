@@ -28,7 +28,7 @@ public class SampleProduct implements Serializable {
 	}
 	private String id;
 	private String name;
-	private Long stock;
-	private Boolean secret;
-	private Boolean editable;
+	private long stock;
+	private boolean secret;
+	private boolean editable;
 }
