@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>serendip.sturts.thymeleaf</groupId>
     <artifactId>struts2-thymeleaf3-sampleapp</artifactId>
-    <version>1.0.2-RELEASE</version>
+    <version>1.0.3-RELEASE</version>
     <packaging>war</packaging>
     <name>struts2-thymeleaf-sampleapp</name>
 
