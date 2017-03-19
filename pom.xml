@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>serendip.sturts.thymeleaf</groupId>
     <artifactId>struts2-thymeleaf3-sampleapp</artifactId>
-    <version>1.0.2-RELEASE</version>
+    <version>1.0.3-RELEASE</version>
     <packaging>war</packaging>
     <name>struts2-thymeleaf-sampleapp</name>
 
     <properties>
-        <struts2.version>2.5.10</struts2.version>
+        <struts2.version>2.5.10.1</struts2.version>
         <log4j2.version>2.7</log4j2.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -72,7 +72,7 @@
         <dependency>
         	<groupId>com.github.a-pz</groupId>
         	<artifactId>struts2-thymeleaf3-plugin</artifactId>
-        	<version>1.0.2-RELEASE</version>
+        	<version>1.0.3-RELEASE</version>
         </dependency>
         <dependency>
         	<groupId>org.projectlombok</groupId>
