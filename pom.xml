@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>serendip.sturts.thymeleaf</groupId>
     <artifactId>struts2-thymeleaf3-sampleapp</artifactId>
-    <version>1.0.3-RELEASE</version>
+    <version>1.0.4-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>struts2-thymeleaf-sampleapp</name>
 
@@ -12,6 +12,7 @@
         <struts2.version>2.5.10.1</struts2.version>
         <log4j2.version>2.7</log4j2.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <struts2-thymeleaf3-plugin-version>1.0.4-RELEASE</struts2-thymeleaf3-plugin-version>
     </properties>
 
     <dependencies>
@@ -72,7 +73,7 @@
         <dependency>
         	<groupId>com.github.a-pz</groupId>
         	<artifactId>struts2-thymeleaf3-plugin</artifactId>
-        	<version>1.0.3-RELEASE</version>
+        	<version>${struts2-thymeleaf3-plugin-version}</version>
         </dependency>
         <dependency>
         	<groupId>org.projectlombok</groupId>
@@ -83,6 +84,18 @@
         	<groupId>org.slf4j</groupId>
         	<artifactId>slf4j-nop</artifactId>
         	<version>1.7.22</version>
+        </dependency>
+        <dependency>
+        	<groupId>org.codehaus.groovy</groupId>
+        	<artifactId>groovy-all</artifactId>
+        	<version>2.4.10</version>
+        	<scope>test</scope>
+        </dependency>
+        <dependency>
+        	<groupId>org.spockframework</groupId>
+        	<artifactId>spock-core</artifactId>
+        	<version>1.0-groovy-2.4</version>
+        	<scope>test</scope>
         </dependency>
     </dependencies>
 
