@@ -4,15 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>serendip.sturts.thymeleaf</groupId>
     <artifactId>struts2-thymeleaf3-sampleapp</artifactId>
-    <version>1.0.5-SNAPSHOT</version>
+    <version>1.2.0-RELEASE</version>
     <packaging>war</packaging>
     <name>struts2-thymeleaf3-sampleapp</name>
 
     <properties>
-        <struts2.version>2.5.10.1</struts2.version>
-        <log4j2.version>2.7</log4j2.version>
+        <struts2.version>2.5.17</struts2.version>
+        <log4j2.version>2.10.0</log4j2.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <struts2-thymeleaf3-plugin-version>1.0.5-RELEASE</struts2-thymeleaf3-plugin-version>
+        <struts2-thymeleaf3-plugin-version>1.2.0-RELEASE</struts2-thymeleaf3-plugin-version>
     </properties>
 
     <dependencies>

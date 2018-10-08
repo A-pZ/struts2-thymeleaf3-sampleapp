@@ -37,7 +37,7 @@ public class UploadAction extends ActionSupport {
 
 		log.info("- upload success. {} {} {} {}",uploadFileContentType,uploadFileFileName,uploadFile.getAbsolutePath(),description);
 
-		addActionMessage("アップロードが完了しました。" + uploadFileFileName);
+		addActionMessage("upload successfully." + uploadFileFileName);
 
         return SUCCESS;
     }

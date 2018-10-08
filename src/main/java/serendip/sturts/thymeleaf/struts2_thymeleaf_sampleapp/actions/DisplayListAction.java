@@ -33,6 +33,8 @@ public class DisplayListAction extends ActionSupport {
 		products = service.search();
 		log.info("- search:{}" , products);
 
+		addActionMessage(getText("sample.message"));
+
         return SUCCESS;
     }
 
