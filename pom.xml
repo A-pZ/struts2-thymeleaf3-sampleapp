@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.apz.struts.thymeleaf</groupId>
 	<artifactId>struts2-thymeleaf3-sampleapp</artifactId>
-	<version>7.0.0-SNAPSHOT</version>
+	<version>7.0.0</version>
 	<packaging>war</packaging>
 	<name>struts2-thymeleaf3-sampleapp</name>
 	
