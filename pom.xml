@@ -13,7 +13,7 @@
 		<struts2.version>7.0.0</struts2.version>
 		<log4j2.version>2.24.3</log4j2.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<struts2-thymeleaf3-plugin-version>7.0.0-SNAPSHOT</struts2-thymeleaf3-plugin-version>
+		<struts2-thymeleaf3-plugin-version>7.0.0</struts2-thymeleaf3-plugin-version>
 	</properties>
 
 	<dependencies>
