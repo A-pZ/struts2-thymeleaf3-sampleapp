@@ -79,3 +79,5 @@ target/m2e-wtp/web-resources/META-INF/maven/serendip.sturts.thymeleaf/struts2-th
 /target/
 /.project
 /.settings/
+/.idea/*
+*.iml

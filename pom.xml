@@ -3,74 +3,40 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>serendip.sturts.thymeleaf</groupId>
+	<groupId>com.github.apz.struts.thymeleaf</groupId>
 	<artifactId>struts2-thymeleaf3-sampleapp</artifactId>
-	<version>6.0.0-RELEASE</version>
+	<version>7.0.0</version>
 	<packaging>war</packaging>
 	<name>struts2-thymeleaf3-sampleapp</name>
-
+	
 	<properties>
-		<struts2.version>6.0.0</struts2.version>
-		<log4j2.version>2.16.0</log4j2.version>
+		<struts2.version>7.0.0</struts2.version>
+		<log4j2.version>2.24.3</log4j2.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<struts2-thymeleaf3-plugin-version>6.0.0-RELEASE</struts2-thymeleaf3-plugin-version>
+		<struts2-thymeleaf3-plugin-version>7.0.0</struts2-thymeleaf3-plugin-version>
 	</properties>
 
 	<dependencies>
-
 		<dependency>
 			<groupId>org.apache.struts</groupId>
 			<artifactId>struts2-core</artifactId>
 			<version>${struts2.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.struts</groupId>
 			<artifactId>struts2-convention-plugin</artifactId>
 			<version>${struts2.version}</version>
 		</dependency>
-
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>struts2-junit-plugin</artifactId>
-			<version>${struts2.version}</version>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>struts2-config-browser-plugin</artifactId>
-			<version>${struts2.version}</version>
-		</dependency>
-
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>${log4j2.version}</version>
 		</dependency>
-
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.5</version>
-			<scope>test</scope>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>5.3.3</version>
 		</dependency>
-
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
-			<scope>provided</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jsp-api</artifactId>
-			<version>2.0</version>
-			<scope>provided</scope>
-		</dependency>
-
-
 		<dependency>
 			<groupId>com.github.a-pz</groupId>
 			<artifactId>struts2-thymeleaf3-plugin</artifactId>
@@ -79,29 +45,12 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.24</version>
+			<version>1.18.36</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-nop</artifactId>
 			<version>1.7.22</version>
-		</dependency>
-		<dependency>
-			<groupId>org.codehaus.groovy</groupId>
-			<artifactId>groovy-all</artifactId>
-			<version>2.4.10</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.spockframework</groupId>
-			<artifactId>spock-core</artifactId>
-			<version>1.0-groovy-2.4</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.sun.activation</groupId>
-			<artifactId>javax.activation</artifactId>
-			<version>1.2.0</version>
 		</dependency>
 	</dependencies>
 
@@ -109,10 +58,11 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.0</version>
+				<version>3.13.0</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
-					<release>11</release>
+					<source>17</source>
+					<release>17</release>
 				</configuration>
 			</plugin>
 		</plugins>
