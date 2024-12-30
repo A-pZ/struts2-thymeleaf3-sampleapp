@@ -1,7 +1,7 @@
 /**
  *
  */
-package serendip.sturts.thymeleaf.struts2_thymeleaf_sampleapp.model;
+package com.github.apz.sturts.thymeleaf.struts2_thymeleaf_sampleapp.model;
 
 import java.util.Arrays;
 import java.util.List;

@@ -3,7 +3,7 @@
          xmlns="http://java.sun.com/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
-    <display-name>Struts Blank Convention for Stust2-Thymeleaf3</display-name>
+    <display-name>Struts Blank Convention for Struts2(7)-Thymeleaf3</display-name>
 
     <filter>
         <filter-name>struts2</filter-name>

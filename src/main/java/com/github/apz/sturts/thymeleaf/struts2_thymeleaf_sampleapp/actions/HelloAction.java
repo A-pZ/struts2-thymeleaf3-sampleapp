@@ -1,12 +1,14 @@
-package serendip.sturts.thymeleaf.struts2_thymeleaf_sampleapp.actions;
+package com.github.apz.sturts.thymeleaf.struts2_thymeleaf_sampleapp.actions;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Namespace;
 import org.apache.struts2.convention.annotation.ParentPackage;
 import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
 
-import com.opensymphony.xwork2.ActionSupport;
+import org.apache.struts2.ActionSupport;
 
 /**
  * <code>Set welcome message.</code>
@@ -18,8 +20,12 @@ public class HelloAction extends ActionSupport {
 
 	@Action("")
     public String execute() throws Exception {
-		addActionMessage("Wooo! Year!! This is thymeleaf3 with Struts2!!");
+		addActionMessage("This is thymeleaf3.1 with Struts2(7).");
+
+        this.name = "sample value from Struts2";
         return SUCCESS;
     }
 
+    @Getter @Setter
+    private String name;
 }

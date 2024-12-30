@@ -1,4 +1,4 @@
-package serendip.sturts.thymeleaf.struts2_thymeleaf_sampleapp.actions;
+package com.github.apz.sturts.thymeleaf.struts2_thymeleaf_sampleapp.actions;
 
 import java.util.List;
 
@@ -10,12 +10,12 @@ import org.apache.struts2.convention.annotation.ParentPackage;
 import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
 
-import com.opensymphony.xwork2.ActionSupport;
+import org.apache.struts2.ActionSupport;
 
 import lombok.Getter;
 import lombok.Setter;
-import serendip.sturts.thymeleaf.struts2_thymeleaf_sampleapp.model.ProductService;
-import serendip.sturts.thymeleaf.struts2_thymeleaf_sampleapp.model.SampleProduct;
+import com.github.apz.sturts.thymeleaf.struts2_thymeleaf_sampleapp.model.ProductService;
+import com.github.apz.sturts.thymeleaf.struts2_thymeleaf_sampleapp.model.SampleProduct;
 
 /**
  * <code>Set welcome message.</code>
